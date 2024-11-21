@@ -1,0 +1,25 @@
+{
+  "name": "fuxionperuana",
+  "version": "1.0.0",
+  "description": "Aplicación web para gestión de restaurantes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanjoCoder86/fuxion-peruana-web.git"
+  },
+  "keywords": [
+    "fuxion",
+    "restaurante",
+    "web",
+    "menú"
+  ],
+  "author": "Juan Jose Salazar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuanjoCoder86/fuxion-peruana-web/issues"
+  },
+  "homepage": "https://github.com/JuanjoCoder86/fuxion-peruana-web#readme"
+}
