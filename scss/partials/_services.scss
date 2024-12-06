@@ -1,0 +1,51 @@
+// Services Section
+#services {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/hero-image4.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 3rem 0;
+  
+    h2 {
+      color: $custom-secondary;
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+  
+    .card {
+      background-color: rgba(0, 0, 0, 0.6);
+      color: white;
+      transition: transform 0.3s ease-in-out;
+  
+      &:hover {
+        transform: scale(1.05);
+      }
+  
+      span {
+        font-size: 3rem;
+        color: $custom-secondary;
+      }
+  
+      h3 {
+        margin: 1rem 0;
+        font-size: 1.5rem;
+      }
+  
+      p {
+        color: #ddd;
+      }
+  
+      button {
+        background-color: $custom-secondary;
+        color: black;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+        padding: 8px 15px;
+  
+        &:hover {
+          background-color: darken($custom-secondary, 10%);
+        }
+      }
+    }
+  }

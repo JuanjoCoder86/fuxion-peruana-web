@@ -1,0 +1,46 @@
+// Header
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    margin: 0;
+    padding: 0;
+    background-color: $custom-primary;
+  
+    .navbar {
+      background-color: $custom-primary;
+      margin: 0;
+      padding: 0.5rem 1rem;
+  
+      .nav-link {
+        color: white;
+        text-decoration: none;
+        transition: color 0.3s ease, background-color 0.3s ease;
+  
+        &:hover {
+          color: $custom-secondary;
+          background-color: rgba(255, 255, 255, 0.2);
+          border-radius: 5px;
+        }
+  
+        &:focus {
+          outline: none; // Elimina el contorno azul
+          box-shadow: none; // Evita sombras al enfoque
+        }
+      }
+  
+      .navbar-toggler {
+        border: none;
+        &:focus {
+          outline: none;
+          box-shadow: none;
+        }
+      }
+    }
+  
+    * {
+      outline: none;
+      box-shadow: none;
+    }
+  }

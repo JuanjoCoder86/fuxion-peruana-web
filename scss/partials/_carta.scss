@@ -1,0 +1,48 @@
+// Carta styles
+.main-title {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #333; // Cambia el color a negro o gris oscuro
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); // Añade una sombra 
+    background-color: rgba(255, 255, 255, 0.7); // Añade un fondo semi-transparente
+    padding: 0.5rem; // Ajusta el padding según sea necesario
+    border-radius: 5px; // Opcional: añade un borde redondeado
+  }
+  
+  .section-separator {  
+    margin: 2rem 0;
+    border: none;
+    border-top: 3px solid $custom-primary;
+  }
+  
+  .carta-section {
+    margin-bottom: 3rem; /* Más espacio entre secciones */
+    display: flex;
+    align-items: center;
+  }
+  
+  .carta-image {
+    img {
+      max-width: 100%;
+      height: auto;
+      width: 70%; /* Imagen más grande */
+    }
+  }
+  
+  .carta-content {
+    h2 {
+      margin-bottom: 1rem;
+    }
+  
+    ul {
+      background-color: rgba(255, 255, 255, 0.8); 
+      padding: 1.5rem; /* Más padding */
+      border-radius: 5px;
+      list-style: none;
+      padding: 0;
+    }
+  
+    li {
+      margin-bottom: 1rem; /* Espacio entre elementos de la lista */
+    }
+  }

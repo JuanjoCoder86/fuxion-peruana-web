@@ -1,0 +1,43 @@
+// About Section
+#about {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/hero-image2.webp');
+    background-size: cover;
+    background-position: center;
+    padding: 3rem 0;
+  
+    img {
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      animation: fade-in 1.5s ease;
+    }
+  
+    .card {
+      background-color: rgba(0, 0, 0, 0.8);
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      animation: fade-in 2s ease;
+  
+      h2 {
+        color: $custom-secondary;
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+      }
+  
+      p {
+        color: #ddd;
+        line-height: 1.6;
+      }
+  
+      .btn-warning {
+        background-color: $custom-secondary;
+        color: black;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+  
+        &:hover {
+          background-color: darken($custom-secondary, 10%);
+        }
+      }
+    }
+  }

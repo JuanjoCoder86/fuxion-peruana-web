@@ -1,0 +1,16 @@
+// Bootstrap import
+@use "../../node_modules/bootstrap/scss/bootstrap" as bs;
+
+// Estilos generales
+body {
+  margin: 0;
+  font-family: $custom-font-family;
+  background-color: $custom-light;
+  color: #333;
+}
+
+header,
+footer {
+  border: none !important; // Elimina cualquier borde no deseado
+  box-shadow: none !important; // Elimina sombras predeterminadas
+}

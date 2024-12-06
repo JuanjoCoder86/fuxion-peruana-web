@@ -1,24 +1,38 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carta - Fuxion Peruana</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body>
-    <!-- Header -->
-    <header class="bg-danger text-white py-2">
-        <nav class="container">
-            <ul class="nav justify-content-center">
-                <li class="nav-item"><a class="nav-link text-white" href="index.html">Inicio</a></li>
-                <li class="nav-item"><a class="nav-link text-white" href="reservas.html">Reservas</a></li>
-                <li class="nav-item"><a class="nav-link text-white" href="carta.html">Carta</a></li>
-                <li class="nav-item"><a class="nav-link text-white" href="contacto.html">Contáctenos</a></li>
-            </ul>
-        </nav>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Fuxión Peruana - Restaurante con lo mejor de la gastronomía peruana.">
+        <meta name="keywords" content="restaurante, comida peruana, reservas, carta, eventos">
+        <meta name="author" content="Fuxión Peruana">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <title>Fuxión Peruana</title>
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="custom-header-padding bg-danger text-white">
+            <nav class="navbar navbar-expand-md navbar-dark">
+                <div class="container">
+                    <a class="navbar-brand fw-bold" href="index.html">Fuxión Peruana</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li> 
+                            <li class="nav-item"><a class="nav-link" href="carta.html">Nuestra Carta</a></li>
+                            <li class="nav-item"><a class="nav-link" href="index.html#services">Servicios</a></li>
+                            <li class="nav-item"><a class="nav-link" href="reservas.html">Reservar</a></li>
+                            <li class="nav-item"><a class="nav-link" href="index.html#contact">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
 
     <!-- Carta Content -->
     <main class="container my-5 carta-main">
@@ -28,7 +42,7 @@
         <!-- Sección 1: Recomendaciones -->
         <section class="row carta-section bg-light">
             <div class="col-md-6 carta-image">
-                <img src="comida1.png" alt="Comida recomendada" class="img-fluid rounded">
+                <img src="img/comida1.png" alt="Comida recomendada" class="img-fluid rounded">
             </div>
             <div class="col-md-6 carta-content">
                 <h2>Recomendaciones</h2>
@@ -57,7 +71,7 @@
                 </ul>
             </div>
 			<div class="col-md-6 carta-image">
-                <img src="comida2.png" alt="Comida recomendada" class="img-fluid rounded">
+                <img src="img/comida2.png" alt="Comida recomendada" class="img-fluid rounded">
             </div>
         </section>
         <hr class="section-separator">
@@ -65,7 +79,7 @@
 		<!-- Sección 3: Platos Criollos -->
         <section class="row carta-section bg-light">
             <div class="col-md-6 carta-image">
-                <img src="comida3.png" alt="Comida recomendada" class="img-fluid rounded">
+                <img src="img/comida3.png" alt="Comida recomendada" class="img-fluid rounded">
             </div>
             <div class="col-md-6 carta-content">
                 <h2>Platos Criollos</h2>
@@ -90,7 +104,7 @@
                 </ul>
             </div>
 			<div class="col-md-6 carta-image">
-                <img src="comida4.png" alt="Comida recomendada" class="img-fluid rounded">
+                <img src="img/comida4.png" alt="Comida recomendada" class="img-fluid rounded">
             </div>
         </section>
         <hr class="section-separator">
@@ -98,7 +112,7 @@
 		<!-- Sección 5: Platos fondo y sopa -->
         <section class="row carta-section bg-light">
             <div class="col-md-6 carta-image">
-                <img src="comida5.png" alt="Comida recomendada" class="img-fluid rounded">
+                <img src="img/comida5.png" alt="Comida recomendada" class="img-fluid rounded">
             </div>
             <div class="col-md-6 carta-content">
                 <h2>Platos fondo y sopa</h2>
@@ -127,16 +141,24 @@
                 </ul>
             </div>
 			<div class="col-md-6 carta-image">
-                <img src="comida6.png" alt="Comida recomendada" class="img-fluid rounded">
+                <img src="img/comida6.png" alt="Comida recomendada" class="img-fluid rounded">
             </div>
         </section>
-		
+
     </main>
 
     <!-- Footer -->
-    <footer class="bg-danger text-white text-center py-3">
+    <footer>
         <p>&copy; 2024 Fuxion Peruana. Todos los derechos reservados.</p>
-    </footer>
+        <div class="social-icons">
+          <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+            <i class="bi bi-facebook"></i>
+          </a>
+          <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+            <i class="bi bi-instagram"></i>
+          </a>
+        </div>
+      </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>

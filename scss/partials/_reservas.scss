@@ -1,0 +1,21 @@
+/* Fondo de la sección de reservas */
+#reservas {
+    background-image: url('../img/hero-image2.webp'); /* Cambia esta ruta a la ubicación de tu imagen */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 50px 0;
+  }
+  
+  /* Fondo del formulario */
+  .form-container {
+    background: rgba(0, 0, 0, 0.8); /* Fondo oscuro semi-transparente */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Estilos generales del texto */
+  h1, p, label {
+    color: #fff; /* Blanco para contraste */
+  }
